@@ -19,8 +19,10 @@ const Section2 = () => {
               src="https://themewagon.github.io/furni/images/product-1.png"
               alt="" className="png"
             />
+            <div className="txt">
             <h3>Nordic Chair</h3>
             <strong>$50.00</strong>
+            </div>
             <div className="plusImg">
               <img
                 src="https://themewagon.github.io/furni/images/cross.svg"
@@ -34,8 +36,10 @@ const Section2 = () => {
               src="https://themewagon.github.io/furni/images/product-2.png"
               alt="" className="png"
             />
+            <div className="txt">
             <h3>Kruzo Aero Chair</h3>
             <strong>$78.00</strong>
+            </div>
             <div className="plusImg">
               <img
                 src="https://themewagon.github.io/furni/images/cross.svg"
@@ -49,8 +53,10 @@ const Section2 = () => {
               src="https://themewagon.github.io/furni/images/product-3.png"
               alt="" className="png"
             />
+            <div className="txt">
             <h3>Ergonomic Chair</h3>
             <strong>$43.00</strong>
+            </div>
             <div className="plusImg">
               <img
                 src="https://themewagon.github.io/furni/images/cross.svg"

@@ -248,7 +248,6 @@ footer .main .furni {
   width: 400px;
   flex-direction: column;
   gap: 20px;
-  padding: 30px;
 }
 footer .main .furni a {
   color: #3b5d50;
@@ -359,6 +358,9 @@ footer .copyright .terms a {
     display: none;
     visibility: hidden;
   }
+  .homePage .container {
+    flex-wrap: wrap;
+  }
 }
 .showMenu {
   display: flex !important;
@@ -369,53 +371,42 @@ footer .copyright .terms a {
 .showMenu ul {
   flex-direction: column;
 }
-
-.homePage .container {
-  flex-wrap: wrap;
-}
-
-.homePage .container .modernInterior {
+.showMenu .homePage .container .modernInterior {
   width: auto;
   letter-spacing: 1.5px;
 }
-
-footer .newsLetter .sofa img {
+.showMenu footer .newsLetter .sofa img {
   width: 236px !important;
   height: 195px !important;
 }
-
-footer .newsLetter {
+.showMenu footer .newsLetter {
   padding: 30px 0 0 0;
 }
-
-footer .main .furni {
+.showMenu footer .main .furni {
   width: auto;
 }
-
-.chairsGeneral {
+.showMenu .chairsGeneral {
   flex-wrap: wrap;
 }
-.chairsGeneral .material {
+.showMenu .chairsGeneral .material {
   width: auto !important;
 }
-.chairsGeneral .chair {
+.showMenu .chairsGeneral .chair {
   flex-wrap: wrap;
   justify-content: center;
 }
-.chairsGeneral .chair .card {
+.showMenu .chairsGeneral .chair .card {
   height: auto !important;
 }
-.chairsGeneral .chair .png {
+.showMenu .chairsGeneral .chair .png {
   height: 477px !important;
   width: 477px !important;
 }
-
-.homePage .container .photos::after {
+.showMenu .homePage .container .photos::after {
   top: auto;
   bottom: 48px !important;
 }
-
-#sofa {
+.showMenu #sofa {
   width: 500px;
   height: 420px;
 }
@@ -502,12 +493,15 @@ footer .main .furni {
   width: 306px;
   height: 306px;
 }
-.products .chairsGeneral .chair .card h3 {
+.products .chairsGeneral .chair .card .txt {
+  padding: 20px;
+}
+.products .chairsGeneral .chair .card .txt h3 {
   color: #2f2f2f;
   font-size: 16px;
   font-family: Inter, sans-serif;
 }
-.products .chairsGeneral .chair .card strong {
+.products .chairsGeneral .chair .card .txt strong {
   color: #2f2f2f;
   font-size: 18px;
   font-family: Inter, sans-serif;

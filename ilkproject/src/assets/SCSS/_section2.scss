@@ -74,17 +74,20 @@
                     height: 306px;
                 }
 
-                h3 {
-                    color: #2f2f2f;
-                    font-size: 16px;
-                    font-family: Inter, sans-serif;
-
-                }
-
-                strong {
-                    color: #2f2f2f;
-                    font-size: 18px;
-                    font-family: Inter, sans-serif;
+                .txt{
+                    padding: 20px;
+                    h3 {
+                        color: #2f2f2f;
+                        font-size: 16px;
+                        font-family: Inter, sans-serif;
+    
+                    }
+    
+                    strong {
+                        color: #2f2f2f;
+                        font-size: 18px;
+                        font-family: Inter, sans-serif;
+                    }
                 }
 
                 &::after {
