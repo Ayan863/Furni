@@ -248,6 +248,7 @@ footer .main .furni {
   width: 400px;
   flex-direction: column;
   gap: 20px;
+  padding: 30px;
 }
 footer .main .furni a {
   color: #3b5d50;
